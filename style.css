@@ -1,20 +1,16 @@
-:root {
-    --primary-color: #506b8f;       /* Azul acinzentado médio */
-    --primary-dark: #18222b;        /* Azul petróleo escuro */
-    --primary-light: #b79b5b;       /* Dourado suave / Mostarda elegante */
-    
-    --text-color: #ffffff;          /* Branco puro (texto principal) */
-    --text-light: #c9c2c3;          /* Cinza claro rosado (texto secundário) */
-    
-    --bg-color: #18222b;            /* Fundo principal – azul petróleo escuro */
-    --card-bg: #1c1f26;             /* Fundo do card – preto azulado fosco */
-    --card-hover: #506b8f;          /* Hover do card – azul acinzentado médio */
-    
-    --border-radius: 10px;          /* Arredondamento dos cantos */
-    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave */
-    --transition: all 0.3s ease-in-out;         /* Transição suave para efeitos */
+root {
+    --primary-color: #506b8f;       /* Azul acinzentado */
+    --primary-dark: #18222b;        /* Azul escuro */
+    --primary-light: #b79b5b;       /* Dourado suave */
+    --text-color: #ffffff;          /* Texto principal em branco */
+    --text-light: #c9c2c3;          /* Texto secundário em cinza claro */
+    --bg-color: #18222b;            /* Fundo azul escuro */
+    --card-bg: #707070;             /* Card cinza */
+    --card-hover: #506b8f;          /* Hover em azul acinzentado */
+    --border-radius: 10px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease-in-out;
 }
-
 
 * {
     margin: 0;
