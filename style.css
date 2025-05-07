@@ -5,7 +5,7 @@
     --text-color: #ffffff;          /* Texto principal em branco */
     --text-light: #c9c2c3;          /* Texto secundário em cinza claro */
     --bg-color: #18222b;            /* Fundo azul escuro */
-    --card-bg: #616161;             /* Card cinza */
+    --card-bg: #000000;             /* Card preto */
     --card-hover: #506b8f;          /* Hover em azul acinzentado */
     --border-radius: 10px;
     --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
