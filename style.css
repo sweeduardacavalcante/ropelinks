@@ -1,16 +1,15 @@
-/* styles.css */
 :root {
-    --primary-color: #1a56db;
-    --primary-dark: #133fa3;
-    --primary-light: #3f83f8;
-    --text-color: #e5e7eb;
-    --text-light: #9ca3af;
-    --bg-color: #111827;
-    --card-bg: #1f2937;
-    --card-hover: #374151;
-    --border-radius: 8px;
-    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --primary-color: #506b8f;       /* Azul acinzentado */
+    --primary-dark: #18222b;        /* Azul escuro */
+    --primary-light: #b79b5b;       /* Dourado suave */
+    --text-color: #ffffff;          /* Texto principal em branco */
+    --text-light: #c9c2c3;          /* Texto secundário em cinza claro */
+    --bg-color: #18222b;            /* Fundo azul escuro */
+    --card-bg: #000000;             /* Card preto */
+    --card-hover: #506b8f;          /* Hover em azul acinzentado */
+    --border-radius: 10px;
+    --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    --transition: all 0.3s ease-in-out;
 }
 
 * {
@@ -20,7 +19,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     background-color: var(--bg-color);
     line-height: 1.6;
@@ -43,17 +42,18 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 12px;
+    gap: 0px;
     margin-bottom: 1.5rem;
     font-weight: 600;
     font-size: 1.3rem;
     color: var(--primary-light);
 }
 
-.logo svg {
+.logo img {
     width: 28px;
-    height: 28px;
+    height: 25px;
     fill: currentColor;
+    margin-left: -40px;
 }
 
 h1 {
@@ -61,6 +61,7 @@ h1 {
     font-weight: 700;
     margin-bottom: 0.75rem;
     line-height: 1.2;
+    color: var(--text-color);
 }
 
 .subtitle {
@@ -230,7 +231,6 @@ footer.visible {
     opacity: 0.7;
 }
 
-/* Modal Styles */
 .modal {
     display: none;
     position: fixed;
@@ -317,9 +317,8 @@ footer.visible {
 .form-group select:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(26, 86, 219, 0.2);
+    box-shadow: 0 0 0 2px rgba(80, 107, 143, 0.3);
 }
-
 .modal-content button[type="submit"] {
     width: 100%;
     background-color: var(--primary-color);
